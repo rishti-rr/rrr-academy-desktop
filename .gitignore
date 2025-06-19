@@ -1,1 +1,40 @@
-node_modules
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# VSCode settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Electron specific
+*.asar
+
+# Optional: local database or cache files (if any)
+*.sqlite
+*.db
+
+# Optional: npm lock files (if you want to keep lock files, remove these lines)
+package-lock.json
+yarn.lock
+
+# Optional: coverage reports
+coverage/
+
+# Optional: misc files
+*.log
